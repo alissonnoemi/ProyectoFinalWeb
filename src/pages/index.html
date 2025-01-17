@@ -5,16 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/ProyectoFinalWeb/src/css/index.css">
     <title>B-Store</title>
 </head>
 
 <body>
+    <div class="container .barra">
+        <h1 class="logo"></h1>
+        <nav>
+                <li><a href="#">INICIO</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href="/src/pages/nosotros.html">NOSOTROS</a></li>
+                <li><a href="/src/pages/contactos.html">CONTACTOS</a></li>
+                    <li class="relative">
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">PRODUCTOS</a>
+                        <ul class="hidden absolute right-0 mt-2 bg-white text-black rounded shadow-lg w-48" id="menub">
+                            <li><a href="#accesorios" class="block px-4 py-2 hover:bg-gray-100">Accesorios</a></li>
+                            <li><a href="#camisetas" class="block px-4 py-2 hover:bg-gray-100">CAMISETAS</a></li>
+                            <li><a href="#hoddies" class="block px-4 py-2 hover:bg-gray-100">Hodies</a></li>
+                            <li><a href="#gorras" class="block px-4 py-2 hover:bg-gray-100">Gorras</a></li>
+                            <li><a href="#posters" class="block px-4 py-2 hover:bg-gray-100">Posters</a></li>
+                            <li><a href="#vinilos" class="block px-4 py-2 hover:bg-gray-100">Vinilos</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </nav>
+    </div>
 
-    <header>
-    <!--POndras bien jaajj   te amooo muchooooooo pasa pack cxddddd-->>
-        
-    </header>
     <section class="banner">
         <div class="content-banner">
             <p>rels-b</p>
@@ -342,76 +366,26 @@
 
     </main>
 
-    <footer class="footer">
-        <div class="container container-footer">
-            <div class="menu-footer">
-                <div class="contact-info">
-                    <p class="title-footer">Información de Contacto</p>
-                    <ul>
-                        <li>
-                            Dirección: 71 Quito-Ecuador, CT
-                            06066
-                        </li>
-                        <li>Teléfono: 123-456-7890</li>
-                        <li>Fax: 55555300</li>
-                        <li>EmaiL: chchasiloa@support.com</li>
-                        <li>EmaiL: gualisson@support.com</li>
-                    </ul>
-                    <div class="social-icons">
-                        <span class="facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </span>
-                        <span class="twitter">
-                            <i class="fa-brands fa-twitter"></i>
-                        </span>
-                        <span class="youtube">
-                            <i class="fa-brands fa-youtube"></i>
-                        </span>
-                        <span class="pinterest">
-                            <i class="fa-brands fa-pinterest-p"></i>
-                        </span>
-                        <span class="instagram">
-                            <i class="fa-brands fa-instagram"></i>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="information">
-                    <p class="title-footer">Información</p>
-                    <ul>
-                        <li><a href="/ProyectoFinalWeb/src/pages/nosotros.html">Acerca de Nosotros</a></li>
-                        <li><a href="#">Politicas de Privacidad</a></li>
-                        <li><a href="#">Términos y condiciones</a></li>
-                        <li><a href="/ProyectoFinalWeb/src/pages/contactos.html">Contactános</a></li>
-                    </ul>
-                </div>
-
-                <div class="my-account">
-                    <p class="title-footer">Mi cuenta</p>
-
-                    <ul>
-                        <li><a href="/ProyectoFinalWeb/src/pages/iniciar.html">Mi cuenta</a></li>
-                        <li><a href="#">Lista de deseos</a></li>
-                        <li><a href="#">Boletín</a></li>
-                        <li><a href="/ProyectoFinalWeb/src/pages/productos.html">Reembolsos</a></li>
-                    </ul>
-                </div>
-
-                <div class="newsletter">
-                    <p class="title-footer">Boletín informativo</p>
-
-                    <div class="content">
-                        <p>
-                            Suscríbete a nuestros boletines ahora y mantente al
-                            día con nuevas colecciones y ofertas exclusivas.
-                        </p>
-                        <input type="email" placeholder="Ingresa el correo aquí...">
-                        <button>Suscríbete</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<footer>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/skinnyflakk/"><i
+                        class="icon ion-social-instagram"></i></a><a href="https://www.threads.net/@skinnyflakk"><i
+                        class="icon ion-social-twitter"></i></a><a
+                    href="https://www.facebook.com/profile.php?id=61555400768245"><i
+                        class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/src/pages/index.html">Inicio</a></li>
+                <li class="list-inline-item"><a href="/src/pages/envios.html">Política de Servicios</a></li>
+                <li class="list-inline-item"><a href="/src/pages/politicadeprivacidad.html">Política de privacidad</a></li>
+                <li class="list-inline-item"><a href="/src/pages/devoluciones.html">Cambios y devoluciones</a></li>
+            </ul>
+            <p class="copyright">Company Smile Store © 2025</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</footer>
     <script src="/ProyectoFinalWeb/src/java/scroll.js"></script>
 </body>
 
