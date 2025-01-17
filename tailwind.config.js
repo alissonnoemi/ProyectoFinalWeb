@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [],
 }
+<<<<<<< HEAD
 // Importar Express
 const express = require("express");
 const path = require("path"); // Módulo para manejar rutas
@@ -29,4 +30,6 @@ app.listen(3000, function () {
   console.log("Servidor corriendo en http://localhost:3000");
 });
 
+=======
+>>>>>>> 6a369281c36cc44ef673e54f3e27800e17f721f8
 

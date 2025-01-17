@@ -12,7 +12,11 @@
 
 body{
     background-position: center;
+<<<<<<< HEAD
     background-image: url(/src/img/fondooo.jpg);
+=======
+    background-image: url(/ProyectoFinalWeb/src/img/fondooo.jpg);
+>>>>>>> 6a369281c36cc44ef673e54f3e27800e17f721f8
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

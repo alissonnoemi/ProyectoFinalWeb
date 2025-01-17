@@ -4,12 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="/src/css/iniciar.css">
-=======
-    <link rel="stylesheet" href="/ProyectoFinalWeb/src/css/iniciar.css">
->>>>>>> 6a369281c36cc44ef673e54f3e27800e17f721f8
+    <link rel="stylesheet" href="/ProyectoFinalWeb/src/css/registro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/src/php/registro.php">
     <title>Login</title>
 </head>
 
@@ -20,8 +17,14 @@
     <div class="container">
         <div class="login_container">
             <div class="login_titulo">
-                <span>Iniciar <br>sesión</span>
+                <span>Registrar</span>
             </div>
+
+            <div class="input_wrapper">
+                <input type="text" id="email" class="input_field" required>
+                <label for="usuario" class="label">Correo electronico</label>
+            </div>
+
             <div class="input_wrapper">
                 <input type="text" id="usuario" class="input_field" required>
                 <label for="usuario" class="label">Usuario</label>
@@ -41,17 +44,17 @@
                 </div>
 
                 <div class="forgot">
-                    <a href="#">¿Olvido su contraseña?</a>
+                    <a href="#"></a>
                 </div>
 
             </div>
 
             <div class="input_wrapper">
-                <input type="submit" class="input-sumit" value="Iniciar sesión">
+                <input type="submit" class="input-sumit" value="Registrarse">
             </div>
 
             <div class="signup">
-                <span>no tienes cuenta <a href="registrar.html" style="color: blue;"> regístrarse</a></span>
+                <span> <a href="index.html"> Inicio</a></span>
             </div>
 
         </div>

@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.17"
+<<<<<<< HEAD
   },
   "name": "proyectofinalweb-master",
   "version": "1.0.0",
@@ -106,4 +107,7 @@
   "author": "",
   "license": "ISC",
   "description": ""
+=======
+  }
+>>>>>>> 6a369281c36cc44ef673e54f3e27800e17f721f8
 }
