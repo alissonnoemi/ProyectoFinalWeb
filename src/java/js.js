@@ -10,8 +10,3 @@ window.addEventListener('click', (event) => {
         dropdownMenu.classList.add('hidden');
     }
 });
-const carousel = document.getElementById('carousel');
-const prevButton = document.getElementById('prevButton');
-const nextButton = document.getElementById('nextButton');
-const indicators = document.querySelectorAll('.carousel-indicator');
-let currentIndex = 0;

@@ -5,112 +5,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
     <script src="app.js" async></script>
     <title>Productos</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="flex items-center justify-between px-4 py-2 bg-black text-white">
-            <div class="flex items-center">
-                <a href="/src/pages/index.html" class="flex items-center">
-                    <img src="/src/img/icon1-removebg-preview.png" alt="Logo" class="h-20 mr-2">
-                    <span class="text-base font-semibold">Smile Urban Shop™</span>
-                </a>
-
-            </div>
-            <div class="flex items-center space-x-6">
-                <button class="focus:outline-none">
-                    <img src="/src/img/lupa.png" alt="Icono 1" class="h-6 w-6">
-                </button>
-                <a href="/src/pages/">
-                    <button class="focus:outline-none">
-                        <img src="/src/img/acceso.png" alt="Icono 2" class="h-6 w-6">
-                    </button>
-                </a>
-
-                <button class="focus:outline-none">
-                    <img src="/src/img/carrito-de-compras.png" alt="Icono 3" class="h-6 w-6">
-                </button>
-            </div>
-            <div class="relative">
-                <button class="focus:outline-none flex items-center space-x-2" id="botonm">
-                    <img src="/src/img/menu.png" alt="Menú" class="h-6 w-6">
-                    <span class="text-sm font-medium">Menú</span>
-                </button>
-                <div class="hidden absolute right-0 mt-2 bg-white text-black rounded shadow-lg w-48" id="menub">
-                    <a href="/src/pages/nosotros.html" class="block px-4 py-2 hover:bg-gray-100">Nosotros</a>
-                    <a href="/src/pages/productos.html" class="block px-4 py-2 hover:bg-gray-100">Productos</a>
-                    <a href="/src/pages/contactos.html" class="block px-4 py-2 hover:bg-gray-100">Contactos</a>
-                </div>
-
+    <div class="container .barra">
+        <h1 class="logo"></h1>
+        <nav>
+                <li><a href="#">INICIO</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href="#">NOSOTROS</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+                    <li class="relative">
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">PRODUCTOS</a>
+                        <ul class="hidden absolute right-0 mt-2 bg-white text-black rounded shadow-lg w-48" id="menub">
+                            <li><a href="#accesorios" class="block px-4 py-2 hover:bg-gray-100">Accesorios</a></li>
+                            <li><a href="#camisetas" class="block px-4 py-2 hover:bg-gray-100">CAMISETAS</a></li>
+                            <li><a href="#hoddies" class="block px-4 py-2 hover:bg-gray-100">Hodies</a></li>
+                            <li><a href="#gorras" class="block px-4 py-2 hover:bg-gray-100">Gorras</a></li>
+                            <li><a href="#posters" class="block px-4 py-2 hover:bg-gray-100">Posters</a></li>
+                            <li><a href="#vinilos" class="block px-4 py-2 hover:bg-gray-100">Vinilos</a></li>
+                        </ul>
+                    </li>
             </div>
         </nav>
-    </header>
+    </div>
+
     <script src="/src/java/js.js"></script>
+
     <header>
-        <h1>Tienda de Relojes</h1>
+        <h1>Productos</h1>
     </header>
+    <div class="audio-container">
+        <audio src="/src/img/Micro TDH ft Rels B - Dime Cuántas Veces (Letra) [vS5jfH6deXk].mp3" controls loop>
+            <p>Tu navegador no soporta la reproducción de audio.</p>
+        </audio>
+        
+    </div>
+    <div class="tit" id="accesorios"> ACCESORIOS </div>
     <section class="contenedor">
+
         <!-- Contenedor de elementos -->
         <div class="contenedor-items">
             <div class="item">
-                <span class="titulo-item">Box Engasse</span>
-                <img src="img/boxengasse.png" alt="" class="img-item">
-                <span class="precio-item">$15.000</span>
+                <span class="titulo-item">Pin <br><br> B-Side <br></span>
+                <img src="/src/img/acc1.jpeg" alt="" class="img-item">
+                <span class="precio-item">$5</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+
+            </div>
+            <div class="item">
+                <span class="titulo-item">Funko R-B</span>
+                <img src="/src/img/acc2.jpeg" alt="" class="img-item">
+                <span class="precio-item">$13,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pin Nap</span><br>
+                <img src="/src/img/acc3.jpeg" alt="" class="img-item">
+                <span class="precio-item">$5,00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">English Horse</span>
-                <img src="img/englishrose.png" alt="" class="img-item">
-                <span class="precio-item">$25.000</span>
+                <span class="titulo-item"> Bordados Personalizados</span><br>
+                <img src="/src/img/acc4.jpeg" alt="" class="img-item">
+                <span class="precio-item">$8,00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">Knock Nap</span>
-                <img src="img/knocknap.png" alt="" class="img-item">
-                <span class="precio-item">$35.000</span>
+                <span class="titulo-item"> Bolsa Skin Glam</span>
+                <img src="/src/img/acc6.jpeg" alt="" class="img-item">
+                <span class="precio-item">$10,00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">La Night</span>
-                <img src="img/lanight.png" alt="" class="img-item">
-                <span class="precio-item">$18.000</span>
+                <span class="titulo-item">Almohada Cry</span>
+                <img src="/src/img/acc7.jpeg" alt="" class="img-item">
+                <span class="precio-item">$7,00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">Silver All</span>
-                <img src="img/silverall.png" alt="" class="img-item">
-                <span class="precio-item">$32.000</span>
+                <span class="titulo-item">Cobijas al gusto </span>
+                <img src="/src/img/acc8.jpeg" alt="" class="img-item">
+                <span class="precio-item">$20,00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
-            <div class="item">
-                <span class="titulo-item">Skin Glam</span>
-                <img src="img/skinglam.png" alt="" class="img-item">
-                <span class="precio-item">$18.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Midimix</span>
-                <img src="img/midimix.png" alt="" class="img-item">
-                <span class="precio-item">$54.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Sir Blue</span>
-                <img src="img/sirblue.png" alt="" class="img-item">
-                <span class="precio-item">$32.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Middlesteel</span>
-                <img src="img/middlesteel.png" alt="" class="img-item">
-                <span class="precio-item">$42.800</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
+        </div>
         </div>
         <!-- Carrito de Compras -->
         <div class="carrito" id="carrito">
@@ -119,99 +116,269 @@
             </div>
 
             <div class="carrito-items">
-
-                <div class="carrito-item">
-                    <img src="img/boxengasse.png" width="80px" alt="">
-                    <div class="carrito-item-detalles">
-                        <span class="carrito-item-titulo">Box Engasse</span>
-                        <div class="selector-cantidad">
-                            <i class="fa-solid fa-minus restar-cantidad"></i>
-                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
-                            <i class="fa-solid fa-plus sumar-cantidad"></i>
-                        </div>
-                        <span class="carrito-item-precio">$15.000,00</span>
-                    </div>
-                    <span class="btn-eliminar">
-                        <i class="fa-solid fa-trash"></i>
-                    </span>
-                </div>
-                <div class="carrito-item">
-                    <img src="img/skinglam.png" width="80px" alt="">
-                    <div class="carrito-item-detalles">
-                        <span class="carrito-item-titulo">Skin Glam</span>
-                        <div class="selector-cantidad">
-                            <i class="fa-solid fa-minus restar-cantidad"></i>
-                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
-                            <i class="fa-solid fa-plus sumar-cantidad"></i>
-                        </div>
-                        <span class="carrito-item-precio">$18.000,00</span>
-                    </div>
-                    <button class="btn-eliminar">
-                        <i class="fa-solid fa-trash"></i>
-                    </button>
-                </div>
             </div>
             <div class="carrito-total">
                 <div class="fila">
                     <strong>Tu Total</strong>
                     <span class="carrito-precio-total">
-                        $120.000,00
+                        $120,00
                     </span>
                 </div>
                 <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
             </div>
         </div>
+
     </section>
-</body>
-<footer class="bg-black text-white">
-    <div class="container mx-auto py-8">
-        <div class="flex flex-col md:flex-row justify-between">
-            <div class="mb-6 md:mb-0">
-                <a href="#" class="flex items-center">
-                    <img src="/src/img/icon1-removebg-preview.png" class="h-8 mr-3" alt="Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap">Smile Urban Shop™</span>
-                </a>
+    <div class="tit" id="camisetas"> CAMISETAS </div>
+    <section class="contenedor">
+
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">FLAKK / T-SHIRT</span>
+                <img src="/src/img/c1.jpeg" alt="" class="img-item">
+                <span class="precio-item">$19,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+
             </div>
-            <div class="flex flex-wrap items-center justify-center mb-6 text-base">
-                <div class="mr-8">
-                    <h5 class="font-bold uppercase mb-3">Atención al cliente</h5>
-                    <ul class="list-disc">
-                        <li><a href="#">Centro de ayuda</a></li>
-                        <li><a href="#">Contacta con nosotros</a></li>
-                        <li><a href="#">Cambios y devoluciones</a></li>
-                    </ul>
-                </div>
-                <div class="mr-8">
-                    <h5 class="font-bold uppercase mb-3">Acerca de</h5>
-                    <ul class="list-disc">
-                        <li><a href="#">Política de privacidad</a></li>
-                        <li><a href="#">Política de envíos</a></li>
-                        <li><a href="#">Aviso legal</a></li>
-                    </ul>
-                </div>
-                <div class="mr-8">
-                    <h5 class="font-bold uppercase mb-3">Links</h5>
-                    <ul class="list-disc">
-                        <li><a href="/src/pages/productos.html">Boutique™</a></li>
-                        <li><a href="#">B-Shop for Artists™</a></li>
-                        <br>
-                    </ul>
-                </div>
-                <div>
-                    <h5 class="font-bold uppercase mb-3">Social</h5>
-                    <ul class="list-none">
-                        <li><a href="https://www.instagram.com/alissn._n/" class="text-white hover:text-gray-400"><i
-                                    class="fab fa-instagram"></i>
-                                Instagram</a></li>
-                        <li><a href=https://api.whatsapp.com/send?phone=+593958993845&text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n
-                                class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i>
-                                WhatsApp</a></li><br>
-                    </ul>
-                </div>
+            <div class="item">
+                <span class="titulo-item">Horse / T-SHIRT</span>
+                <img src="/src/img/c2.jpeg" alt="" class="img-item">
+                <span class="precio-item">$20,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+            </div>
+            <div class="item">
+                <span class="titulo-item">STAFF / T-SHIRT</span>
+                <img src="/src/img/c3.jpeg" alt="" class="img-item">
+                <span class="precio-item">$15,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">La Night / T-SHIRT
+                </span>
+                <img src="/src/img/c4.jpeg" alt="" class="img-item">
+                <span class="precio-item">$18,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">FLAKK BLACK / T-SHIRT</span>
+                <img src="/src/img/c5.jpeg" alt="" class="img-item">
+                <span class="precio-item">$19,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Skin t-shirt</span>
+                <img src="/src/img/c6.jpeg" alt="" class="img-item">
+                <span class="precio-item">$18,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">La Night BLACK / T-SHIRT</span>
+                <img src="/src/img/c7.jpeg" alt="" class="img-item">
+                <span class="precio-item">$24,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ALMA DE CRISTAL PICK / T-SHIRT</span>
+                <img src="/src/img/c9.jpeg" alt="" class="img-item">
+                <span class="precio-item">$20,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+    <div class="tit" id="hoddies"> HODDIES </div>
+    <section class="contenedor">
+
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">LONG SLEEVE</span>
+                <img src="/src/img/h1.jpeg" alt="" class="img-item">
+                <span class="precio-item">$40,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+
+            </div>
+            <div class="item">
+                <span class="titulo-item">HOODIE WHRITE</span>
+                <img src="/src/img/h2.jpeg" alt="" class="img-item">
+                <span class="precio-item">$40,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+            </div>
+            <div class="item">
+                <span class="titulo-item"> A MI</span>
+                <img src="/src/img/h3.jpeg" alt="" class="img-item">
+                <span class="precio-item">$40,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">SONRIE HOODIE</span>
+                <img src="/src/img/h4.jpeg" alt="" class="img-item">
+                <span class="precio-item">$40,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">LA VIDA SIN TI</span>
+                <img src="/src/img/h5.jpeg" alt="" class="img-item">
+                <span class="precio-item">$40,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">BAJO EL MAR</span>
+                <img src="/src/img/h6.jpeg" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">DIAMANTE</span>
+                <img src="/src/img/h7.jpeg" alt="" class="img-item">
+                <span class="precio-item">$40,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
             </div>
         </div>
+        </div>
+    </section>
+    </section>
+    <div class="tit" id="gorras"> GORRAS </div>
+    <section class="contenedor">
+
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">LOCATION CAP</span>
+                <img src="/src/img/gorra1.jpeg" alt="" class="img-item">
+                <span class="precio-item">$15,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+
+            </div>
+            <div class="item">
+                <span class="titulo-item"> Horse</span>
+                <img src="/src/img/gorra2.jpeg" alt="" class="img-item">
+                <span class="precio-item">$20,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+            </div>
+            <div class="item">
+                <span class="titulo-item">Knock CAP</span>
+                <img src="/src/img/gorra3.jpeg" alt="" class="img-item">
+                <span class="precio-item">$15,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="tit" id="posters"> POSTERS </div>
+    <section class="contenedor">
+
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">LA ISLA LP</span>
+                <img src="/src/img/p1.jpeg" alt="" class="img-item">
+                <span class="precio-item">$9,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">HAPPY BIRTHDAY FLAKKO</span>
+                <img src="/src/img/p2.jpeg" alt="" class="img-item">
+                <span class="precio-item">$9,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+            </div>
+            <div class="item">
+                <span class="titulo-item">FLAKK DANIEL´S LP</span>
+                <img src="/src/img/p4.jpeg" alt="" class="img-item">
+                <span class="precio-item">$9,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">players <br> hater</span>
+                <img src="/src/img/player hate.webp" alt="" class="img-item">
+                <span class="precio-item">$9,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">A new star</span>
+                <img src="/src/img/a new.png" alt="" class="img-item">
+                <span class="precio-item">$9,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">AFROLOVA 23'</span>
+                <img src="/src/img/afrolova23.png" alt="" class="img-item">
+                <span class="precio-item">$9,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Boys DON'T CRYS</span>
+                <img src="/src/img/boy´s.png" alt="" class="img-item">
+                <span class="precio-item">$9,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    </section>
+    <div class="tit" id="vinilos"> VINILOS </div>
+    <section class="contenedor">
+
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">VINILO FLAKKO</span>
+                <img src="/src/img/vinil1.jpeg" alt="" class="img-item">
+                <span class="precio-item">$22,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">VINILO <br> ALELUYA
+                </span>
+                <img src="/src/img/vinil2.jpeg" alt="" class="img-item">
+                <span class="precio-item">$22,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+            </div>
+            <div class="item">
+                <span class="titulo-item">VINILO A NEW STAR</span>
+                <img src="/src/img/ima5.webp" alt="" class="img-item">
+                <span class="precio-item">$22,00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+</body>
+<footer>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/skinnyflakk/"><i
+                        class="icon ion-social-instagram"></i></a><a href="https://www.threads.net/@skinnyflakk"><i
+                        class="icon ion-social-twitter"></i></a><a
+                    href="https://www.facebook.com/profile.php?id=61555400768245"><i
+                        class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/src/pages/index.html">Inicio</a></li>
+                <li class="list-inline-item"><a href="#">Política de Servicios</a></li>
+                <li class="list-inline-item"><a href="#">Aviso Legal</a></li>
+                <li class="list-inline-item"><a href="#">Política de privacidad</a></li>
+                <li class="list-inline-item"><a href="#">Cambios y devoluciones</a></li>
+            </ul>
+            <p class="copyright">Company Smile Store © 2025</p>
+        </footer>
     </div>
-    <script src="/src/java/productos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </footer>
+<script src="/src/java/productos.js"></script>
+
 
 </html>
